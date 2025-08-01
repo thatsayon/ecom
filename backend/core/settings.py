@@ -41,6 +41,7 @@ INSTALLED_APPS += [
 # custom app
 INSTALLED_APPS += [
     "authentication",
+    "subscriptions",
 ]
 
 MIDDLEWARE = [
