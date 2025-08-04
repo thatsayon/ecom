@@ -36,6 +36,7 @@ INSTALLED_APPS = [
 INSTALLED_APPS += [
     "corsheaders",
     "rest_framework",
+    "mptt",
 ]
 
 # custom app
