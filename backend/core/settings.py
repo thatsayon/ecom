@@ -143,6 +143,7 @@ AUTH_USER_MODEL = "authentication.UserAccount"
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
+        # 'authentication.authentication.APIKeyAuthentication',
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
     'DEFAULT_PERMISSION_CLASSES': (

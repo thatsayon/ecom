@@ -1,3 +1,3 @@
-from django.db import models
+from .orders.models import *
+from .products.models import *
 
-# Create your models here.
